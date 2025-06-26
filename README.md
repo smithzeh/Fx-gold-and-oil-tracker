@@ -1,42 +1,21 @@
-FX, Gold, and Oil Price Tracker
-This project fetches and combines historical foreign exchange rates, gold prices, and crude oil prices to create a unified dataset for financial analysis.
+Market Watch Dashboard with API-Based Data Analysis
 
-What It Does
-Collects USD exchange rates to:
 
-Nigerian Naira (NGN)
 
-Euro (EUR)
+I built this dashboard using Python and Tableau, powered by free financial APIs (no API key needed).
 
-British Pound (GBP)
 
-Retrieves gold prices using gold futures (GC=F)
 
-Retrieves Brent crude oil prices (BZ=F)
+It visualizes:	Gold (XAU/USD) 	Oil (Brent Crude) Exchange Rates (USD to EUR & GBP)
 
-Merges everything into a single time-series DataFrame
 
-Exports the combined dataset to historical_data.csv
 
-Technologies Used
-Python
+Tools: requests, pandas, Tableau Public
 
-Pandas for data manipulation
+Skills: Data Collection, API Handling, Visualization, Insight Extraction
 
-Requests for API calls
 
-yfinance for financial data
 
-matplotlib (optional) for visualization
+See how global commodities and currencies moved in June.
 
-Data Sources
-FX Rates: Frankfurter.app – free and open API
-
-Gold & Oil: Yahoo Finance via yfinance
-
-Use Cases
-Analyzing how gold and oil prices correlate with exchange rates
-
-Studying market behavior over time
-
-Practicing real-world data analysis and API integration
+https://public.tableau.com/app/profile/smith.sunday/viz/MarketWatchAPIBasedDataAnalysis/MarketWatchAPIBasedDataAnalysis?publish=yes
